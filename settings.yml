@@ -1,0 +1,54 @@
+position:
+  default: bottom
+  type: enum
+  choices:
+  - top
+  - bottom
+  - top-left
+  - top-right
+  - bottom-left
+  - bottom-right
+  description: 
+    en: 'The position of the cookie banner relative to the page'
+static:
+  type: bool
+  default: false
+  description: 
+    en: 'Used with the "top" position setting. The banner will scroll off the page rather stay visible at all times.'
+layout:
+  default: block
+  type: enum
+  choices:
+    - block
+    - edgeless
+    - classic
+  description: 
+    en: 'The general "theme" of the cookie banner'
+popup_background_color:
+  type: string
+  default: "#000"
+popup_text_color:
+  type: string
+  default: "#fff"
+button_background_color:
+  type: string
+  default: "#f1d600"
+button_text_color:
+  type: string
+  default: "#000"
+main_text:
+  type: string
+  default: "This website uses cookies to ensure you get the best experience on our website."
+dismiss_button_text:
+  type: string
+  default: "Got it!"
+policy_link_text:
+  type: string
+  default: "Learn more"
+  description: 
+    en: 'The link text of a cookie policy or cookie education page'
+policy_link_url:
+  type: string
+  default: "https://cookiesandyou.com/"
+  description: 
+    en: 'The url of a cookie policy or cookie education page'
