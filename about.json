@@ -1,6 +1,6 @@
 {
   "name": "Cookie Consent Banner",
-  "about_url": "URL",
+  "about_url": "https://meta.discourse.org/t/discourse-cookie-consent-banner/108380",
   "license_url": "https://github.com/tshenry/discourse-cookie-consent-banner/blob/master/LICENSE",
   "component": true
 }
