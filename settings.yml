@@ -54,8 +54,8 @@ policy_link_url:
     en: 'The url of a cookie policy or cookie education page'
 policy_link_target:
   type: enum
-  default: '_blank'
+  default: '_self'
   choices:
-  - '_self'
+  - '_blank'
   description: 
-    en: '<b>_blank</b> will open the policy link in a new tab. <b>_self</b> opens within the same browser tab.'
+    en: '<b>_self</b> opens the policy link within the same browser tab. <b>_blank</b> will open in a new tab.'
