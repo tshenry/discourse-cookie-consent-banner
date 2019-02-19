@@ -52,3 +52,10 @@ policy_link_url:
   default: "https://cookiesandyou.com/"
   description: 
     en: 'The url of a cookie policy or cookie education page'
+policy_link_target:
+  type: enum
+  default: '_blank'
+  choices:
+  - '_self'
+  description: 
+    en: '<b>_blank</b> will open the policy link in a new tab. <b>_self</b> opens within the same browser tab.'
